@@ -1,0 +1,4 @@
+/* selektor uniwersalny - wybiera wszystkie znaczniki z HTML */
+* {
+    color: red;
+}
