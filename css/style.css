@@ -2,3 +2,19 @@
 * {
     color: red;
 }
+
+li.list-item{
+    color: green;
+}
+
+/* pseudo-elementy - elementy, ktore nie istnieja w dzewie dokumentu (HTML), ale mozemy zamarkowac ich istnienie. Zapisujemy za pomaca podwojnego dwukropka (::), mozemy ustawic przez lub za znacznikiem HTML. Nie istnieja, dopoki nie ustawimy wlasciwosci "content" */
+
+ul{
+    list-style: none;
+}
+
+/*selektor klasy z pseudoelemntem*/
+.link-item::before{
+    content: '*';
+}
+
