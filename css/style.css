@@ -1,3 +1,5 @@
+
+
 /* selektor uniwersalny - wybiera wszystkie znaczniki z HTML */
 * {
     color: red;
@@ -87,5 +89,48 @@ input[title^="pie"] {
 input[title$="y"] {
     border: 5px solid green;
 }
+
+/*pozycjonowanie*/
+
+#positions {
+    height: 300px;
+    background-color: green;
+    /* pozycja relatywna osduwa dany element od miejsca , w ktorym normalnie by sie snalazly (jak wynikaloby z html)*/
+    position: relative;
+}
+
+#positions .blue {
+    background-color: blue;
+}
+
+#positions .red {
+    background-color: red;
+    left: 100px;
+    top: 35px;
+    /* pozycja absolutna odsuwa element od innego elementu, ktory jest pozycjonowany inaczej niz statycznie. Jezeli nie znajdzie takiego elementu, odsuwa sie od body. */
+    position: absolute;
+    margin: 0;
+}
+
+#positions p {
+    color: white;
+}
+
+#main-nav {
+/*    pozycja zafiksowana pozwala pozycjonowac element wzgledem okna przegladarki, podajemy wysoki z-index, zeby element nie zostal przykryty przez np. element pozycjonowany relatywnie. */
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: limegreen;
+    margin-top: 212px;
+}
+
+
+
+
+
+
 
 
