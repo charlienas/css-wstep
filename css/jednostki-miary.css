@@ -1,0 +1,10 @@
+#jednostki-miary > div {
+    /* ctrl + e aby pokazac rgba  */
+    background-color: rgba(106, 106, 216, 0.6);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#piksele {
+    width: 400px;
+}
