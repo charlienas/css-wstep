@@ -8,3 +8,36 @@
 #piksele {
     width: 400px;
 }
+
+#em {
+    width: 50em;
+}
+
+#procenty {
+    width: 50%;
+}
+
+#vh {
+    width: 50vh;
+}
+
+.inline-block-inner {
+    display: inline-block;
+    height: 300px;
+    background-color: red;
+    width: 33.33333%;
+    float: left;
+}
+
+#spacja {
+    padding-top: 
+}
+
+
+
+
+
+
+
+
+
