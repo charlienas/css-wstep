@@ -1,0 +1,44 @@
+body {
+    background-color: aqua;
+}
+
+.box {
+    width: 300px;
+    height: 150px;
+    border: 1px solid red;
+    margin: 50px;
+}
+
+#visible {
+    color: blue;
+    overflow: visible;
+}
+
+#hidden {
+    color: green;
+    overflow: hidden;
+}
+
+#scroll {
+    color: violet;
+    overflow: scroll;
+}
+
+#auto {
+    color: [purple;
+    overflow: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
