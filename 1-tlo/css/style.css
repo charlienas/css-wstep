@@ -1,8 +1,12 @@
 body {
-    background-color: palegreen;
+    background: palegreen url("../img/logo.png") no-repeat 50% 100px scroll;
+    background-size: auto;
+    /*
     background-image: url("../img/logo.png");
     background-repeat: no-repeat;
-    background-position: 40px 10px
+    background-position: 40px 10px;
+    background-attachment: scroll;
+        */
 }
 
 
