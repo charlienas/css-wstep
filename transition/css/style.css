@@ -1,3 +1,26 @@
 body {
     background-color: lime;
 }
+
+a {
+    color: gray;
+    transition-property: color;
+    transition-duration: 5s;
+    transition-timing-function: ease-in;
+    transition-delay: 2s;
+}
+/*
+a {
+    color: gray;
+    transition: color 2s ease-in 1s;
+    font-size: 60px;
+    position: absolute;
+    left: 20px;
+    top: 30px;
+}
+*/
+
+a:hover {
+    color: orange; 
+    font-size: 100px; 
+}
