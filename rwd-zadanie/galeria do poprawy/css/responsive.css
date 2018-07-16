@@ -26,24 +26,26 @@
 
 @media (max-width: 768px) {
         figure {
-            width: 99%;
+            width: 100%;
         }
         #gallery {
-            width: 80.75%;
+            width: 87.5%;
         }
-
-    }
 }
 
 
 @media (max-width:480px) {
     figure {
         width: 100%;
-        margin: 0;
+        margin: 0px;
+        border: 0px;
+        padding: 0px;
     }
     #gallery {
         width: 100%;
-        margin: 0;
+        margin: 0px;
+        border: 0px;
+        padding: 0px;
     }
 
     }
