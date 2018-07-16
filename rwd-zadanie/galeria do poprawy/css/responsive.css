@@ -1,0 +1,50 @@
+#gallery {
+    width: 100%;
+}
+
+
+
+@media (min-width: 992px) {
+    figure {
+        width: 33.3%
+    }
+        #gallery {
+            width: 90%;      
+        }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+        figure {
+            width: 50%;
+    }
+        #gallery {
+            width: 80%;
+        }
+}
+
+
+
+@media (max-width: 768px) {
+        figure {
+            width: 99%;
+        }
+        #gallery {
+            width: 80.75%;
+        }
+
+    }
+}
+
+
+@media (max-width:480px) {
+    figure {
+        width: 100%;
+        margin: 0;
+    }
+    #gallery {
+        width: 100%;
+        margin: 0;
+    }
+
+    }
+}
