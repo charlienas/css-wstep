@@ -1,0 +1,30 @@
+body {
+    background-color: gold;
+}
+
+.flex-item {
+    color: #fff;
+    background-color: olivedrab;
+    flex-basis: 30%;
+}
+
+.flex-item:nth-of-type(even) {
+    background-color: darkgreen;
+}
+
+#container {
+    display: flex;
+    background-color: red;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    height: 600px;
+    align-items: center;
+}
+
+
+
+
+
+
+
