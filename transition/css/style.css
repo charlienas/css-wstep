@@ -1,7 +1,8 @@
 body {
-    background-color: lime;
+    background-color: whitesmoke;
 }
 
+/* Animacja Tekstu
 a {
     color: gray;
     transition-property: color;
@@ -9,7 +10,7 @@ a {
     transition-timing-function: ease-in;
     transition-delay: 2s;
 }
-/*
+
 a {
     color: gray;
     transition: color 2s ease-in 1s;
@@ -18,9 +19,77 @@ a {
     left: 20px;
     top: 30px;
 }
-*/
+
 
 a:hover {
     color: orange; 
     font-size: 100px; 
 }
+*/
+
+div {
+    display: block;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box1 {
+    top: 10px;
+    left: 50%;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+}
+
+.box1:hover {
+    width: 300px;
+}
+
+.box2 {
+    top: 170px;
+    left: 50%;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    transition: 3s;
+}
+
+.box2:hover {
+    height: 300px;
+}
+
+.box3 {
+    top: 340px;
+    left: 50%;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    transition: width 2s linear, height 2s linear;
+}
+
+.box3:hover {
+    height: 300px;
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
