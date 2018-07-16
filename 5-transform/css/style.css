@@ -1,9 +1,47 @@
 body {
-    background-color: beige;
+    background-color: red;
     
 }
 
+#rotate {
+    transform: rotate(10deg);
+}
 
+#translate {
+    transform: translate(90px, 60px);
+}
+
+#scale {
+    transform: scale(0.5);
+}
+
+@keyframes resize {
+    0% {
+        width: 100%;
+        transform: rotate(0deg);
+    }
+    50% {
+        width: 50%;
+        transform: rotate(180deg);
+    }
+    100% {
+        width: 100%;
+        transform: rotate(360deg);
+    }
+}
+
+#animation {
+    animation-name: resize;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+div {
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-bottom: 350px;
+    width: 700px;
+}
 
 
 
