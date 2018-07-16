@@ -1,6 +1,8 @@
 body {
-    background-color: lime;
+    background-color: palegreen;
     background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-position: 40px 10px
 }
 
 
